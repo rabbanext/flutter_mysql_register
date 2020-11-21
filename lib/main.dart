@@ -95,7 +95,7 @@ class RegisterUserState extends State {
 
                   Padding(
                       padding: const EdgeInsets.all(12.0),
-                      child: Text('User Registration Form',
+                      child: Text('Form Pendaftaran',
                           style: TextStyle(fontSize: 21))),
 
                   Divider(),
@@ -106,7 +106,7 @@ class RegisterUserState extends State {
                       child: TextField(
                         controller: nameController,
                         autocorrect: true,
-                        decoration: InputDecoration(hintText: 'Enter Your Name Here'),
+                        decoration: InputDecoration(hintText: 'Masukkan Nama'),
                       )
                   ),
 
@@ -116,7 +116,7 @@ class RegisterUserState extends State {
                       child: TextField(
                         controller: emailController,
                         autocorrect: true,
-                        decoration: InputDecoration(hintText: 'Enter Your Email Here'),
+                        decoration: InputDecoration(hintText: 'Masukkan Email'),
                       )
                   ),
 
@@ -127,7 +127,7 @@ class RegisterUserState extends State {
                         controller: passwordController,
                         autocorrect: true,
                         obscureText: true,
-                        decoration: InputDecoration(hintText: 'Enter Your Password Here'),
+                        decoration: InputDecoration(hintText: 'Masukkan Password'),
                       )
                   ),
 
@@ -136,7 +136,7 @@ class RegisterUserState extends State {
                     color: Colors.green,
                     textColor: Colors.white,
                     padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                    child: Text('Click Here To Register User Online'),
+                    child: Text('Daftar Akun'),
                   ),
 
                   Visibility(
